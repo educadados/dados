@@ -1,0 +1,5 @@
+
+
+
+DOWNLOAD = 'downloaded'
+CLEAN = 'clean'
