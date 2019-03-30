@@ -1,0 +1,471 @@
+
+<style>
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('http://dados.prefeitura.sp.gov.br/fontes/opensans-regular-webfont.eot');
+    src: url('http://dados.prefeitura.sp.gov.br/fontes/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://dados.prefeitura.sp.gov.br/fontes/opensans-regular-webfont.woff2') format('woff2'),
+         url('http://dados.prefeitura.sp.gov.br/fontes/opensans-regular-webfont.woff') format('woff'),
+         url('http://dados.prefeitura.sp.gov.br/fontes/opensans-regular-webfont.ttf') format('truetype'),
+         url('http://dados.prefeitura.sp.gov.br/fontes/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('http://dados.prefeitura.sp.gov.br/fontes/opensans-bold-webfont.eot');
+    src: url('http://dados.prefeitura.sp.gov.br/fontes/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://dados.prefeitura.sp.gov.br/fontes/opensans-bold-webfont.woff2') format('woff2'),
+         url('http://dados.prefeitura.sp.gov.br/fontes/opensans-bold-webfont.woff') format('woff'),
+         url('http://dados.prefeitura.sp.gov.br/fontes/opensans-bold-webfont.ttf') format('truetype'),
+         url('http://dados.prefeitura.sp.gov.br/fontes/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+</style>
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="pt_BR" class="ie ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="pt_BR" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="pt_BR" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="pt_BR"> <!--<![endif]-->
+  <head>
+    <!--[if lte ie 8]><script type="text/javascript" src="/fanstatic/vendor/:version:2015-11-05T11:48:53/html5.min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2015-11-05T11:48:53/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2015-11-05T14:10:52/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2015-11-05T11:48:53/font-awesome/css/font-awesome.min.css" />
+<!--[if ie 7]><link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2015-11-05T11:48:53/font-awesome/css/font-awesome-ie7.min.css" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/tema_resources/:version:2015-12-16T16:25:26/css/cmbd.css" />
+
+    
+      <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.4.1" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    
+    <title>Erro 404 - Portal de Dados Abertos da Cidade de São Paulo</title>
+
+    
+    <link rel="shortcut icon" href="/imagens/pmsp_favicon_16x16px.ico" />
+    
+      
+    
+
+    
+      
+      
+    
+    
+  </head>
+
+  
+  <body data-site-root="http://dados.prefeitura.sp.gov.br/" data-locale-root="http://dados.prefeitura.sp.gov.br/" >
+
+    
+    <div class="hide"><a href="#content">Pular para o conteúdo</a></div>
+  
+
+  
+          
+
+	  
+	  <header class="account-masthead">
+    <div class="container">
+	    <div class="row">
+        <div class="span6 dados_abertos">
+            
+<!-- Snippet home/snippets/promoted_right.html start -->
+<div class="module-content box">
+    <a href='http://dados.prefeitura.sp.gov.br/'><img src="/imagens/dados_abertos.png" alt="Dados Abertos" title="Dados Abertos" width="290" height="150" class="cmbd"/></a>
+</div>
+<!-- Snippet home/snippets/promoted_right.html end -->
+
+        </div>
+        <div class="span6 logo_prefeitura">
+
+            
+<!-- Snippet home/snippets/promoted_left.html start -->
+
+
+<div class="module-content box" style="padding-bottom: 84px; padding-top: 4em;">
+  <header>
+ 			        
+        
+          <a class="logo" href="http://www.prefeitura.sp.gov.br" target="_blank"><img class="logo-aberto" src="/imagens/logo_pmsp.png" width="207" height="57" alt="Prefeitura de São Paulo" title="Prefeitura de São Paulo" /></a>
+        
+      
+	  
+	  
+	  
+	
+  </header>
+</div>
+<!-- Snippet home/snippets/promoted_left.html end -->
+
+        </div>
+    </div>
+	</div>
+	</header>
+	  
+<header class="navbar navbar-static-top masthead">
+  
+    
+  
+  <div class="container">
+    <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    
+    <hgroup class="header-image pull-left">
+
+      
+     
+      
+
+    </hgroup>
+
+    <div class="nav-collapse collapse">
+
+      
+        <nav class="section navigation">
+          <ul class="nav nav-pills">
+            
+			
+              <li><a href="/dataset">Conjuntos de dados</a></li><li><a href="/organization">Órgãos</a></li><li><a href="/group">Temas</a></li><li><a href="/about">Sobre</a></li>			 
+            
+          </ul>
+        </nav>
+      
+
+      
+        <form class="section site-search simple-input" action="/dataset" method="get">
+          <div class="field">
+            <label for="field-sitewide-search">Buscar conjunto de dados</label>
+            <input id="field-sitewide-search" type="text" name="q" placeholder="Pesquisar" />
+            <button class="btn-search" type="submit"><i class="icon-search"></i></button>
+          </div>
+        </form>
+      
+
+    </div>
+  </div>
+</header>
+
+  
+    <div role="main">
+      <div id="content" class="container">
+        
+          
+  
+  
+
+
+          
+            <div class="toolbar">
+              
+
+            </div>
+          
+
+          <div class="row wrapper no-nav">
+
+            
+            
+            
+
+            
+  <article class="module">
+    <div class="module-content">
+      <html>
+ <head>
+  <title>404 Not Found</title>
+ </head>
+ <body>
+  <h1>404 Not Found</h1>
+  The resource could not be found.<br /><br />
+Dados de recursos não encontrado
+
+
+ <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2015-11-05T11:48:53/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2015-11-05T11:48:53/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2015-11-04T17:45:31/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/related-item.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js"></script></body>
+</html>
+    </div>
+  </article>
+
+
+            
+          </div>
+        
+      </div>
+    </div>
+  
+    <footer class="site-footer">
+  <div class="container">
+  <div class="row">
+            <div class="span2 pmsp">
+                <a href='http://www.prefeitura.sp.gov.br' target='_blank' ><img src="/imagens/pmsp-centralizado-transparent.png" width="150" title='Prefeitura do Município de São Paulo' alt='Prefeitura do Município de São Paulo'></a>
+            </div>
+			<div class='span2'>
+			<!--<a href='http://saopauloaberta.prefeitura.sp.gov.br'  target="_blank" ><img src='/imagens/logo-spa.png'   style="margin-top: 1em;"  title='São Paulo aberta' alt='São Paulo aberta'/></a>
+			<br>
+			<span style="color: #000000;  margin-left: 1.2em;">São Paulo aberta</span>
+			-->
+			</div>
+            <div class="span2 logo_apoio" style="margin-top: 1em;">
+			<p>Apoio:</p>
+			 <a href="http://prodam.sp.gov.br/" target='_blank' ><img src="/imagens/logo_prodam_opcao6-transparente-141x55px.png" "Logo Prodam" title='Prodam – Tecnologia da Informação e Comunicação' alt='Prodam – Tecnologia da Informação e Comunicação' /></a>
+			
+            </div>
+			
+            <div class="span3 redes_sociais" style="margin-top: 1em;">
+                <p><i class="icon-facebook-sign"></i> <a href="https://www.facebook.com/PrefSP" target="_blank">Facebook</a></p>
+                <p><i class="icon-twitter"></i> <a href="https://twitter.com/prefsp" target="_blank">Twitter</a></p>
+                <p><i class="icon-youtube"></i> <a href="https://www.youtube.com/user/prefeiturasaopaulo" target="_blank">Youtube</a></p>
+                
+                <!--<img src="http://placehold.it/150x100/14547C/?text=Social">-->
+            </div>
+			
+      <nav class="footer-links">
+	  
+        
+          <ul class="unstyled">
+		
+		</ul>
+          <ul class="unstyled">
+            
+              
+              <li><a href="http://docs.ckan.org/en/ckan-2.4.1/api.html" target='_blank'>API do CKAN</a></li>
+              <li><a href="http://www.okfn.org/" target='_blank' >Open Knowledge Foundation</a></li>
+              <li><a href="http://www.opendefinition.org/okd/" target='_blank' ><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png"></a></li>
+            
+          </ul>
+        
+      </nav>
+      <div class="attribution">
+        
+          <img src="/imagens/powered-by.png" width="150">
+          
+        
+        
+          
+<!-- Snippet snippets/language_selector.html start -->
+
+
+<form class="form-inline form-select lang-select" action="/util/redirect" data-module="select-switch" method="POST">
+  <label for="field-lang-select">Idioma</label>
+  <select id="field-lang-select" name="url" data-module="autocomplete" data-module-dropdown-class="lang-dropdown" data-module-container-class="lang-container">
+    
+      <option value="/pt_BR/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" selected="selected">
+        português (Brasil)
+      </option>
+    
+      <option value="/en/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        English
+      </option>
+    
+      <option value="/ja/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        日本語
+      </option>
+    
+      <option value="/it/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        italiano
+      </option>
+    
+      <option value="/cs_CZ/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        čeština (Česká republika)
+      </option>
+    
+      <option value="/ca/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        català
+      </option>
+    
+      <option value="/es/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        español
+      </option>
+    
+      <option value="/fr/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        français
+      </option>
+    
+      <option value="/el/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        Ελληνικά
+      </option>
+    
+      <option value="/sv/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        svenska
+      </option>
+    
+      <option value="/sr/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        Српски
+      </option>
+    
+      <option value="/no/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        Norwegian
+      </option>
+    
+      <option value="/sk/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        slovenský
+      </option>
+    
+      <option value="/fi/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        suomi
+      </option>
+    
+      <option value="/ru/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        русский
+      </option>
+    
+      <option value="/de/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        Deutsch
+      </option>
+    
+      <option value="/pl/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        polski
+      </option>
+    
+      <option value="/nl/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        Nederlands
+      </option>
+    
+      <option value="/bg/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        български
+      </option>
+    
+      <option value="/ko_KR/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        한국어 (대한민국)
+      </option>
+    
+      <option value="/hu/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        magyar
+      </option>
+    
+      <option value="/sl/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        slovenščina
+      </option>
+    
+      <option value="/lv/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        latviešu
+      </option>
+    
+      <option value="/ne/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        नेपाली
+      </option>
+    
+      <option value="/ro/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        română
+      </option>
+    
+      <option value="/en_AU/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        English (Australia)
+      </option>
+    
+      <option value="/sq/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        shqipe
+      </option>
+    
+      <option value="/zh_TW/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        中文 (台湾)
+      </option>
+    
+      <option value="/is/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        íslenska
+      </option>
+    
+      <option value="/id/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        Bahasa Indonesia
+      </option>
+    
+      <option value="/da_DK/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        dansk (Danmark)
+      </option>
+    
+      <option value="/mn_MN/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        монгол (Монгол улс)
+      </option>
+    
+      <option value="/tr/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        Türkçe
+      </option>
+    
+      <option value="/km/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        ភាសាខ្មែរ
+      </option>
+    
+      <option value="/fa_IR/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        فارسی (ایران)
+      </option>
+    
+      <option value="/th/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        ไทย
+      </option>
+    
+      <option value="/he/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        עברית
+      </option>
+    
+      <option value="/lt/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        lietuvių
+      </option>
+    
+      <option value="/ar/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        العربية
+      </option>
+    
+      <option value="/zh_CN/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        中文 (中国)
+      </option>
+    
+      <option value="/vi/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        Tiếng Việt
+      </option>
+    
+      <option value="/uk_UA/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        українська (Україна)
+      </option>
+    
+      <option value="/hr/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        hrvatski
+      </option>
+    
+      <option value="/pt_PT/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        português (Portugal)
+      </option>
+    
+      <option value="/sr_Latn/dataset/cf4bbd99-7bf7-4e5a-8237-89d3c0e9a386/resource/08b64c4e-c175-41a5-a334-ccd6ebca89aa/download/deinfoedcensoescolar2010categorias.csv" >
+        Srpski (Latinica)
+      </option>
+    
+  </select>
+  <button class="btn js-hide" type="submit">Ir</button>
+</form>
+<!-- Snippet snippets/language_selector.html end -->
+
+        
+      </div>
+    
+        </div>
+    
+  </div>
+</footer>
+
+
+
+
+  
+    
+    
+    
+  
+    
+
+      
+  </body>
+</html>
