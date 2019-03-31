@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadadoArquivo>
+	<titulo>Base Dados Execução</titulo>
+	<descricaoCampos>
+		<![CDATA[
+<Cd_Orgao>É um conjunto de unidades orçamentárias que formam uma das grandes entidades da estrutura organizacional do Município, tendo a responsabilidade de aplicação e administração dos recursos consignados.</Cd_Orgao>
+<Cd_Unidade>É uma unidade administrativa da estrutura municipal que tem dotações próprias consignadas no orçamento.</Cd_Unidade>
+<Cd_Funcao>Maior nível de agregação das diversas áreas de despesa que competem ao setor público.</Cd_Funcao>
+<Cd_SubFuncao>Representa uma partição da função, visando agregar determinado subconjunto de despesa do setor público.</Cd_SubFuncao>
+<Cd_Programa>Instrumento de organização da ação governamental visando à concretização dos objetivos pretendidos, sendo mensurados por indicadores estabelecidos no plano plurianual.</Cd_Programa>
+<ProjetoAtividade>(Atividade): É um instrumento de programação para alcançar o objetivo de um programa, envolvendo um conjunto de operações que se realizam de modo contínuo e permanente, das quais resulta um produto necessário à manutenção da ação de governo. Pode ser definida, ainda, como um conjunto de operações voltadas para viabilizar o funcionamento dos equipamentos públicos e ações ligadas à prestação de serviços à população. (Projeto): é um instrumento de programação para alcançar o objetivo de um programa, envolvendo um conjunto de operações limitadas no tempo, das quais resulta um produto final que concorre para a expansão ou aperfeiçoamento da ação do governo. Nesta categoria enquadram-se construções, reformas e todos os demais projetos que têm (ou deveriam ter) duração definida, como por exemplo, as ações financiadas por operações de crédito, tais como o Programa de Modernização da Administração Tributária e Gestão dos Setores Sociais Básicos, financiado com recursos do BNDES.  (Operação Especial): As Operações Especiais têm a finalidade de agregar aquelas despesas em relação às quais não se possa associar, no período, a geração de um bem ou serviço, tais como, dívidas, ressarcimentos, transferências, indenizações, financiamentos e outras afins. Dito de uma outra forma são aquelas despesas nas quais o administrador incorre, sem, contudo, combinar fatores de produção para gerar produtos, ou seja, seriam neutras em relação ao ciclo produtivo sob sua responsabilidade.</ProjetoAtividade>
+<Cd_Despesa>Classificação dos gastos de acordo com a destinação dos recursos. Tem por finalidade identificar os objetos de gasto, tais como vencimentos e vantagens fixas, juros, diárias, material de consumo, serviços de terceiros prestados sob qualquer forma, subvenções sociais, obras e instalações, equipamentos e material permanente, auxílios, amortização e outros de que a administração pública se serve para a consecução de seus fins.</Cd_Despesa>
+<Cd_Fonte>Classificação dos gastos de acordo com a origem dos recursos a serem utilizados para aquela despesa.</Cd_Fonte>
+<PAPA>Sigla significando a classificação da despesa em Projetos, Atividades, Operações Especiais, Pessoal e Auxílios.</PAPA>
+<Sld_Orcado_Ano>Valor orçamentário fixado pela Lei Orçamentária Anual.</Sld_Orcado_Ano>
+<Vl_Atualizado>Resultado líquido do somatório dos congelamentos reduzido dos descongelamentos, ou seja, o valor congelado atual.</Vl_Atualizado>
+<Vl_Reservado>Valor do somatório de todas as Notas de Reserva emitidas, inclusive com os valores cancelados, ou seja, valor reservado bruto.</Vl_Reservado>
+<Vl_CongeladoLiquido>Resultado líquido do somatório dos congelamentos reduzido dos descongelamentos, ou seja, o valor congelado atual.</Vl_CongeladoLiquido>
+<Vl_Cancelado>Valor parcial ou total de Nota de Reserva cancelado</Vl_Cancelado>
+<Vl_ReservadoLiquido>Somatório de todas as Notas de Reserva emitidas, líquido dos valores cancelados.</Vl_ReservadoLiquido>
+<Vl_Empenhado>Valor do somatório de todas as Notas de Empenho emitidas, inclusive com os valores anulados, ou seja, valor empenhado bruto.</Vl_Empenhado>
+<Vl_Anulado>Valor parcial ou total de Nota de Empenho anulado.</Vl_Anulado>
+<Vl_EmpenhadoLiquido>Somatório de todas as Notas de Empenho emitidas, líquido dos valores anulados.</Vl_EmpenhadoLiquido>
+<Vl_Liquidado>Somatório de todas as Notas de Liquidação e Pagamento emitidas.</Vl_Liquidado>
+<Vl_Pago>Somatório de todos pagamento realizados.</Vl_Pago>
+		]]>
+	</descricaoCampos>
+</metadadoArquivo>

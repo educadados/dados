@@ -21,6 +21,9 @@ import settings
 
 URL = 'http://dados.prefeitura.sp.gov.br/'
 TIMEOUT = 5
+MANUAL_PACKAGES = {
+    'base-dados-execucao',
+}
 
 
 def hashfile(filename, filepath='.'):
@@ -63,6 +66,13 @@ def get_datasets_from_package(package_name):
         raise
     return resp
 
+def dataset_exists(dataset):
+    folder = os.path.join(settings.DOWNLOAD, dataset['package_name'])
+    if not os.path.isdir(folder):
+        return False
+    filename = os.path.join(folder, dataset['url'].split(r'/')[-1])
+    return os.path.isfile(filename)
+
 def save_dataset(dataset_name, package_name, file_contents):
     # check if package folder exists, if not, create it
     folder = os.path.join(settings.DOWNLOAD, package_name)
@@ -74,6 +84,8 @@ def save_dataset(dataset_name, package_name, file_contents):
         f.write(file_contents)
 
 def to_save(resource):
+    if resource['package_name'] in MANUAL_PACKAGES:
+        return True
     target_words = {
         'educacao',
         'escolar',
@@ -130,9 +142,10 @@ def main():
     # download and save resources
     print(f'Downloading {len(datasets)} datasets (after filter):', flush=True)
     for dataset in tqdm(datasets):
-        url = dataset['url']
-        resp = requests.get(url, timeout=600)
-        save_dataset(url.split(r'/')[-1], dataset['package_name'], resp.content)
+        if not dataset_exists(dataset):
+            url = dataset['url']
+            resp = requests.get(url, timeout=600)
+            save_dataset(url.split(r'/')[-1], dataset['package_name'], resp.content)
     print(f'\tDone', flush=True)
 
 

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadadoBase>
+	<id>52</id>
+	<orgao_ou_entidade>Secretaria Municipal do Planejamento, Orçamento e Gestão</orgao_ou_entidade>
+	<sigla>SEMPLA</sigla>
+	<titulo_base>Base Dados Execução</titulo_base>
+	<setor_responsavel_base>Coordenadoria Geral Orçamento - CGO</setor_responsavel_base>
+	<extensao_geografica>Município</extensao_geografica>
+	<serie_historica>2003 - Atual</serie_historica>
+	<categoria_tematica>economia e finanças</categoria_tematica>
+	<tipo_armazenamento>Arquivo de dados</tipo_armazenamento>
+	<formato_arquivo>.xls (MS EXCEL)</formato_arquivo>
+	<SGDB></SGDB>
+	<ambiente_producao>Windows, Excel versão 2007</ambiente_producao>
+	<titulo_nome>Base Dados Execução</titulo_nome>
+	<resumo>"Tabela de acompanhamento da Execução Orçamentária."</resumo>
+	<palavras_chave>Tabela, Execução Orçamentária</palavras_chave>
+	<historico>"Conexão ao Banco de Dados via Excel, atualização diária. Criação devido a necessidade de desenvolvimento de relatórios gerenciais."</historico>
+	<procedencia_dados>cadastro ou registro administrativo</procedencia_dados>
+	<periodicidade>diário</periodicidade>
+	<situacao_processo>ativo</situacao_processo>
+	<nivel_desagregacao>Município</nivel_desagregacao>
+	<lacunas_identificadas>"A base pode conter lapso de informações de períodos anteriores a implantação devido a falha na migração ou inexistência do dado."</lacunas_identificadas>
+	<tipo_representacao>alfanumérica (textos, números - p.ex. tabelas)</tipo_representacao>
+	<escala>0</escala>
+	<sistema_referencia_projecao_cartografica>Não se aplica</sistema_referencia_projecao_cartografica>
+	<base_cartografica_utilizada>Não se aplica</base_cartografica_utilizada>
+	<extensaoArquivo_formato_software>XLS</extensaoArquivo_formato_software>
+	<existe_informacao_grau_sigilo>NÃO</existe_informacao_grau_sigilo>
+	<forma_disponibilizacao>Internet</forma_disponibilizacao>
+	<site_link>http://sempla.prefeitura.sp.gov.br/orc_homenew.php</site_link>
+	<procedimento_acesso>Viaduto do Chá, 15 - 10º andar. Coordenadoria do Orçamento - SEMPLA</procedimento_acesso>
+</metadadoBase>
