@@ -3,26 +3,34 @@ Repositório com cópia de todos os datasets
 Preferencial para python 3.7
 
 
+
 # Pastas
 
-### downloaded
+
+### raw_data
 Pasta com os datasets baixados (sem tratamento nenhum)
-Uma subpasta por cada package
+Uma subpasta para cada fonte de dados
+
+##### pmsp_ckan
+Portal de dados da prefeitura de São Paulo
+http://dados.prefeitura.sp.gov.br/
+
 
 ### clean
 Pasta com os datasets ja tratados
 - formato padronizado sempre em csv
-- zipados com zip
 - separador de colunas: ','
 - separador decimal: '.'
 - encoding utf8
 - sem indices
 
 
-# Arquivos
+### pipelines
+Package com os pipelines de downloads e tratamento de arquivos
 
-### settings.py
-Arquivo com configurações gerais
+##### settings.py
+Arquivo com configurações gerais uteis a todos os pipelines
 
-### download.py
-Script para fazer o download de dos datasets
+##### pmsp_ckan
+scripts para download e tratamento dos dados do CKAN da prefeitura de São Paulo
+
