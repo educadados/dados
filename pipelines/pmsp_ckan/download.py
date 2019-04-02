@@ -2,21 +2,15 @@
 
 
 import os
-import sys
 import json
 import hashlib
-import traceback as tb
-
 
 import requests
 import pandas as pd
 from tqdm import tqdm
 from unidecode import unidecode
 
-
-import settings
-
-
+from .folder import DOWNLOAD_FOLDER, CLEAN_FOLDER
 
 
 URL = 'http://dados.prefeitura.sp.gov.br/'
@@ -49,11 +43,13 @@ def get(url, timeout=None):
         raise requests.exceptions.ConnectionError(msg)
     return json.loads(resp.text)
 
+
 def get_package_list():
     endpoint = 'api/3/action/package_list'
     url = URL + endpoint
     resp = get(url)
     return resp['result']
+
 
 def get_datasets_from_package(package_name):
     endpoint = f'api/3/action/package_show?id={package_name}'
@@ -66,22 +62,25 @@ def get_datasets_from_package(package_name):
         raise
     return resp
 
+
 def dataset_exists(dataset):
-    folder = os.path.join(settings.DOWNLOAD, dataset['package_name'])
+    folder = os.path.join(DOWNLOAD_FOLDER, dataset['package_name'])
     if not os.path.isdir(folder):
         return False
     filename = os.path.join(folder, dataset['url'].split(r'/')[-1])
     return os.path.isfile(filename)
 
+
 def save_dataset(dataset_name, package_name, file_contents):
     # check if package folder exists, if not, create it
-    folder = os.path.join(settings.DOWNLOAD, package_name)
+    folder = os.path.join(DOWNLOAD_FOLDER, package_name)
     if not os.path.isdir(folder):
         os.mkdir(folder)
     # save the file
     filename = os.path.join(folder, dataset_name)
     with open(filename, 'wb') as f:
         f.write(file_contents)
+
 
 def to_save(resource):
     if resource['package_name'] in MANUAL_PACKAGES:
@@ -125,8 +124,8 @@ def main():
     for package in tqdm(packages):
         resources = get_datasets_from_package(package)
         for i in range(len(resources)):
-            resources[i].update({'package_name':package})
-            resources[i].update({'to_save':to_save(resources[i])})
+            resources[i].update({'package_name': package})
+            resources[i].update({'to_save': to_save(resources[i])})
         datasets += resources
     print(f'\t{len(datasets)} Datasets found.', flush=True)
 
@@ -145,13 +144,12 @@ def main():
         if not dataset_exists(dataset):
             url = dataset['url']
             resp = requests.get(url, timeout=600)
-            save_dataset(url.split(r'/')[-1], dataset['package_name'], resp.content)
+            save_dataset(
+                url.split(r'/')[-1],
+                dataset['package_name'],
+                resp.content
+            )
     print(f'\tDone', flush=True)
-
-
-
-
-
 
 
 if __name__ == '__main__':

@@ -1,5 +1,0 @@
-
-
-
-DOWNLOAD = 'downloaded'
-CLEAN = 'clean'
