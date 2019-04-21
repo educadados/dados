@@ -10,13 +10,14 @@ import pandas as pd
 from tqdm import tqdm
 from unidecode import unidecode
 
-from .folder import DOWNLOAD_FOLDER, CLEAN_FOLDER
+from folder import DOWNLOAD_FOLDER, CLEAN_FOLDER
 
 
 URL = 'http://dados.prefeitura.sp.gov.br/'
 TIMEOUT = 5
 MANUAL_PACKAGES = {
     'base-dados-execucao',
+    'sistema-de-acompanhamento-da-administracao-indireta-sadin-compilado',
 }
 
 
