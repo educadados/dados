@@ -118,3 +118,6 @@ dmypy.json
 
 # nohup
 nohup.out
+
+# unamed notebooks
+*/Untitled*.ipynb
