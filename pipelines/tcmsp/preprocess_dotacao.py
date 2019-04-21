@@ -45,7 +45,9 @@ def make_and_save_df(file_list):
     def column_parser(name):
         # espaços + Código/cod + Descrição/desc
         s = name.replace(' ', '_')
-        s = name.replace('Código', 'cod').replace('Descrição', 'desc')
+        s = re.sub('Código_d[eao]_', 'cod_', s)
+        s = re.sub('Descrição_d[eao]_', 'desc_', s)
+        # replace('Código', 'cod').replace('Descrição', 'desc')
         # camel case to snake case
         s = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', s)
         s = re.sub('([a-z0-9])([A-Z])', r'\1_\2', s).lower()
