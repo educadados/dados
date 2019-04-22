@@ -18,6 +18,7 @@ TIMEOUT = 5
 MANUAL_PACKAGES = {
     'base-dados-execucao',
     'sistema-de-acompanhamento-da-administracao-indireta-sadin-compilado',
+    'remuneracao-servidores-prefeitura-de-sao-paulo',
 }
 
 
@@ -133,7 +134,7 @@ def main():
     # Make table from all datasets
     print(f'Creating dataframe. ', end='', flush=True)
     df = pd.DataFrame(datasets)
-    df.to_csv('datasets.csv', index=False)
+    df.to_csv(os.path.join(CLEAN_FOLDER, 'datasets.csv'), index=False)
     print(f'Done.', flush=True)
 
     # filter eductaion datasets
