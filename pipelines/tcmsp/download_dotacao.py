@@ -39,7 +39,7 @@ def download(link):
     # old file
     filename = resp.headers['Content-Disposition'].split('=')[1]
     try:
-        with open(os.path.join(folders.DOWNLOAD_FOLDER, filename), 'rb') as f:
+        with open(os.path.join(folders.DOTACAO_FOLDER, filename), 'rb') as f:
             old_sha256 = hashlib.sha256(f.read()).hexdigest()
     except FileNotFoundError:
         logger.debug(f'Filename {filename} not found')
@@ -50,7 +50,7 @@ def download(link):
         return False
     # or, save file and return filename
     logger.debug(f'New file {filename}. Saving file to disk.')
-    with open(os.path.join(folders.DOWNLOAD_FOLDER, filename), 'wb') as f:
+    with open(os.path.join(folders.DOTACAO_FOLDER, filename), 'wb') as f:
         f.write(resp.content)
     return filename
 
