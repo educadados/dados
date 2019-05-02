@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 def list_files():
     global folders
     logger.info(f'Listing files')
-    folder = folders.DOWNLOAD_FOLDER
+    folder = folders.DOTACAO_FOLDER
     file_list = []
     for root, _, files in os.walk(folder):
         logger.debug(f'Looking into folder {root}. {len(files)} files found')
@@ -35,7 +35,7 @@ def make_and_save_df(file_list):
     df = pd.DataFrame()
     for file in file_list:
         logger.debug(f'Reading and parsing file {file}')
-        filename = os.path.join(folders.DOWNLOAD_FOLDER, file)
+        filename = os.path.join(folders.DOTACAO_FOLDER, file)
         temp_df = pd.read_csv(filename, encoding='latin1')
         temp_df['arquivo_original'] = file
         df = pd.concat([df, temp_df])
