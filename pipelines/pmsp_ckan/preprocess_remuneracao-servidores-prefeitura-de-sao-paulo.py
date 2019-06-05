@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 def get_year_month(file):
     patt = '(remuneracao)?(?P<month>\d{2})-?(?P<year>\d{4})ati.*\.csv'
     match = re.match(patt, file.name)
-    match = {k:int(v) for k,v in match.groupdict().items()}
+    match = {k: int(v) for k, v in match.groupdict().items()}
     file = file._replace(
         date=datetime.date(year=match['year'], month=match['month'], day=1)
     )
@@ -29,9 +29,12 @@ def get_year_month(file):
     ))
     return file
 
+
 def get_file_list():
     logger.info(f'Listando arquivos')
-    folder = os.path.join(DOWNLOAD_FOLDER, 'remuneracao-servidores-prefeitura-de-sao-paulo/')
+    folder = os.path.join(
+        DOWNLOAD_FOLDER, 'remuneracao-servidores-prefeitura-de-sao-paulo/'
+    )
     for root, folders, files in os.walk(folder):
         break
     File = namedtuple('File', ['name', 'folder', 'date'], defaults=(None,)*3)
