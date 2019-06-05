@@ -68,6 +68,7 @@ pyviz-comms==0.7.2
 PyYAML==5.1
 pyzmq==18.0.1
 qtconsole==4.4.3
+rarfile==3.0
 requests==2.21.0
 requests-html==0.10.0
 Send2Trash==1.5.0
