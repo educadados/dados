@@ -22,7 +22,7 @@ def get_dataframe(filepath):
     elif filepath.endswith('.xls'):
         df = pd.read_excel(filepath)
     else:
-        raise NotImplemented
+        raise NotImplementedError
     return df
 
 
@@ -58,7 +58,6 @@ def main():
     print(f'Saving file to disk')
     df.to_csv(filename, index=False)
     print(f'Finished')
-
 
 
 if __name__ == '__main__':
