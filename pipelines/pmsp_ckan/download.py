@@ -19,6 +19,8 @@ MANUAL_PACKAGES = {
     'base-dados-execucao',
     'sistema-de-acompanhamento-da-administracao-indireta-sadin-compilado',
     'remuneracao-servidores-prefeitura-de-sao-paulo',
+    'microdados-servidores-atribuicao',
+    'microdados-servidores-perfil',
 }
 
 
